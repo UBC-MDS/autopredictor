@@ -1,43 +1,65 @@
-# Code of Conduct
+# Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Welcome to AutoPredictor! We are committed to creating a welcoming and inclusive space for everyone. We aim to maintain a safe, respectful community free from harassment. We invite people from all backgrounds, irrespective of age, body size, disabilities, ethnicity, gender, experience, education, socio-economic status, nationality, physical appearance, race, caste, color, religion, sexual identity, and orientation, to join our community and get involved with our project. We believe that diversity fosters innovation, and we appreciate the unique contributions of each member of our community.
 
 ## Our Standards
 
-Examples of behavior that contributes to creating a positive environment include:
+Our community is committed to creating a welcoming environment. This commitment includes, but is not limited to, the following key principles:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+-   Respectful Interaction: We encourage a culture of polite and constructive dialogue. Value diverse perspectives and practice empathy and compassion.
 
-Examples of unacceptable behavior by participants include:
+-   Community Consciousness: Prioritize the community's collective well-being over individual interests. Report any unsafe situations or breaches of the Code of Conduct.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+-   Collaboration: Foster teamwork and knowledge sharing. Remain open to new ideas and welcome helpful feedback.
 
-## Our Responsibilities
+-   Accountability: Take responsibility for your actions, apologize to those impacted by your errors, and learn from these incidents.
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+-   Inclusion: Aid in creating a space where everyone feels included, using language that is friendly and supportive of people from different backgrounds.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+-   Professionalism: Uphold a high standard of professionalism, respecting various views and experiences. Be honest and open in your interactions.
+
+Our community strictly prohibits any behavior that is threatening, harassing, abusive, discriminatory, belittling, or demeaning. This prohibition extends to, but is not limited to, the following:
+
+-   Using sexual language or imagery, or making unwelcome sexual advancements.
+
+-   Engaging in trolling, personal or politically motivated attacks.
+
+-   Participating in public or private harassment.
+
+-   Revealing someone's confidential information without their consent.
+
+We have a zero-tolerance stance on any conduct considered inappropriate in a professional setting.
+
+## Consequences for Unacceptable Behavior
+
+Unacceptable behavior will not be allowed and will result in immediate corrective measures. These include:
+
+-   Formal Warning: An official written notification and a meeting to discuss the behavior. This might be a confidential warning or result in a public statement.
+
+-   Temporary Suspension: A short-term ban from engaging in the project or communicating with the community may be implemented.
+
+-   Permanent Exclusion: A permanent ban on participation in the project and community interactions will be implemented. This measure is more likely to be implemented in the event of repeated unacceptable behavior.
+
+## Enforcement Responsibilities
+
+Community leaders are responsible for clearly stating and maintaining the expected norms of behavior. Community leaders should also act appropriately when dealing with unacceptable behavior.
+
+Community leaders must remove, change, or reject comments, code contributions, issues, and other inputs that don't follow the Code of Conduct. They will provide explanations about these actions and decisions when and if appropriate.
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+This set of behavioral guidelines applies to everyone associated with our project and is valid in all related areas, including public places where our community members represent us. This includes leaders, contributors, maintainers, and users. All participants must adhere to these guidelines while using official channels of communication for the project, like emails and social media, and when representing the project at events, whether virtual or in-person.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+In the event that you witness or experience any harmful, harassing, or inappropriate conduct, we encourage you to contact our team at [zeilygar\@student.ubc.ca](mailto:zeilygar@student.ubc.ca). We prioritize every complaint and ensure a thorough response from our community leaders. The current community leaders responsible for managing these reports are Anu Banga, Arturo Rey, Sharon Voon, and Zeily Garcia. Upon examination, leaders will implement appropriate measures. The identity of anyone reporting an incident will always be kept confidential.
 
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+The responsibility of enforcing this Code of Conduct fairly lies with the project maintainers. If any community leader fails to meet these standards, the other leaders can enact temporary or permanent actions against them. This policy is in place to ensure that our community is a secure and respectful environment for everyone.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant homepage](http://contributor-covenant.org/version/1/4), version 1.4.
+This Code of Conduct is adapted from the Contributor Covenant homepage, version 1.4, available at [Link](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
+
+This Code of Conduct has also incorporated guidelines from the Tidyverse Code of Conduct and Salesforce Open Source Community Code of Conduct. Available at [Link](https://github.com/tidyverse/tidyverse/blob/HEAD/.github/CODE_OF_CONDUCT.md) and [Link](https://github.com/salesforce/creativity_eval/blob/main/CODE_OF_CONDUCT.md), respectively. Tidyverse Code of Conduct and Salesforce Open Source Community Code of Conduct were both adapted from Contributor Covenant, version 1.4, available at [Link](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
