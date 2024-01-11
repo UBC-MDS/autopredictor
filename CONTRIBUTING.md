@@ -1,3 +1,6 @@
+# Core Contributors / Maintainers
+Anu Banga, Arturo Rey, Sharon Voon, Zeily Garcia
+
 # Contributing
 
 Contributions are welcome, and they are greatly appreciated! Every little bit
