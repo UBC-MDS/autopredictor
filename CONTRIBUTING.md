@@ -1,73 +1,30 @@
-# Contributing
+# Contributing to AutoPredictor project
 
-Contributions are welcome, and they are greatly appreciated! Every little bit
-helps, and credit will always be given.
+Thank you for considering contributing to the AutoPredictor package! This package is done as a first step when training your models, so the user can easily know which models work best out of the box.
 
-## Types of Contributions
+## Ways to Contribute
 
-### Report Bugs
+We welcome contributions in various forms, including but not limited to: code, documentation, bug reports/fixing, suggestion, and testing.
 
-If you are reporting a bug, please include:
+**Forking the Repository:** Start by forking the AutoPredictor project repository to your own GitHub account.
 
-* Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+**Cloning the Repository:** Clone the forked repository to your local machine using the `git clone` command.
 
-### Fix Bugs
+**Creating a Branch:** Please create a branch prior to working on the project in order for your Pull Request to be considered.
 
-Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
-wanted" is open to whoever wants to implement it.
+**Making Changes:** Make and commit your changes with clear and descriptive commit messages.
 
-### Implement Features
+**Opening a Pull Request:** Explain your changes or issues in the pull request description.
 
-Look through the GitHub issues for features. Anything tagged with "enhancement"
-and "help wanted" is open to whoever wants to implement it.
+**Please be noted:**
 
-### Write Documentation
+-   Pull Requests will be reviewed as fast as our team can look at them. Please be mindful that we are students, and our schedule can vary a bit.
+-   New code should follow the PEP 8 styleguide.
 
-You can never have enough documentation! Please feel free to contribute to any
-part of the documentation, such as the official docs, docstrings, or even
-on the web in blog posts, articles, and such.
+### Code of Conduct
 
-### Submit Feedback
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
-If you are proposing a feature:
+### Attributions
 
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
-
-## Get Started!
-
-Ready to contribute? Here's how to set up `autopredictor` for local development.
-
-1. Download a copy of `autopredictor` locally.
-2. Install `autopredictor` using `poetry`:
-
-    ```console
-    $ poetry install
-    ```
-
-3. Use `git` (or similar) to create a branch for local development and make your changes:
-
-    ```console
-    $ git checkout -b name-of-your-bugfix-or-feature
-    ```
-
-4. When you're done making changes, check that your changes conform to any code formatting requirements and pass any tests.
-
-5. Commit your changes and open a pull request.
-
-## Pull Request Guidelines
-
-Before you submit a pull request, check that it meets these guidelines:
-
-1. The pull request should include additional tests if appropriate.
-2. If the pull request adds functionality, the docs should be updated.
-3. The pull request should work for all currently supported operating systems and versions of Python.
-
-## Code of Conduct
-
-Please note that the `autopredictor` project is released with a
-Code of Conduct. By contributing to this project you agree to abide by its terms.
+These contributing guidelines were adapted from the [dplyr contributing guidelines.](https://github.com/tidyverse/dplyr/blob/main/.github/CONTRIBUTING.md)
