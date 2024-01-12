@@ -2,5 +2,5 @@
 
 * Anu Banga - @AnuBanga 
 * Zeily Garcia - @zgarciaj 
-* Arturo Rey Haggar
+* Arturo Rey Haggar - @AReyH 
 * Sharon Voon
