@@ -1,6 +1,6 @@
 def show_all(X):
     """
-    This function converts the trained regressor model scores stored in a dictionary by 
+    This function converts the trained regression model scores stored in a dictionary by 
     the "fit" function into a DataFrame, sorted alphabetically by model. It also 
     outputs the DataFrame in a table format.
 
