@@ -18,11 +18,4 @@ def select_model(df_output, model_name):
     Series or str
         The row from the DataFrame corresponding to the specified model.
         Otherwise, returns a "Model Not Found" message.
-
-    Examples
-    --------
-    >>> from autopredictor import select_model
-    # Assuming 'df_models' is a DataFrame containing model scores from show_all()
-    >>> result = select_model(df_models, 'Linear Regression')
-    >>> print(result)
     """
