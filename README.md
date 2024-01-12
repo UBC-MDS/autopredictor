@@ -1,6 +1,6 @@
 # autopredictor
 
-A package that streamline the repetitive task of regression models selection and comparison in the machine learning workflow.
+The Autopredictor Python package streamlines the process of selecting and assessing machine learning models, presenting a simplified approach for evaluating different regression models without intricate manual setup. This tool facilitates the exploration of multiple models on a dataset, minimizing the coding required for selecting and fitting various models. Utilizing preprocessed and trained data, the package evaluates models using default settings, enabling users to swiftly comprehend model performance. By computing and showcasing diverse performance metrics for each model, it offers an efficient means to compare their effectiveness. Overall, Autopredictor provides a convenient and quick framework for initial model assessment and comparison in machine learning workflows.
 
 This package includes four main functions:
 - `fit`: Fits a clean, preprocessed training data into eight different regression models. The function returns a dictionary containing four various metric scores for each model
