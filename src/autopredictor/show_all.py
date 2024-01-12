@@ -16,12 +16,4 @@ def show_all(X):
     DataFrame
         A DataFrame containing all scoring metrics results alongside the corresponding 
         model, sorted alphabetically.
-
-    Examples
-    --------
-    >>> from autopredictor.show_all import show_all
-    >>> model_scores = {"A":{"MSE":0.568, "MAE":0.789, "MAPE":0.234, "R2":0.863},
-                        "B":{"MSE":0.236, "MAE":0.680, "MAPE":0.854, "R2":0.653}}
-    >>> result = show_all(model_scores)
-    >>> print(result)
     """
