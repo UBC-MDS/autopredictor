@@ -23,7 +23,7 @@ We welcome contributions in various forms, including but not limited to: code, d
 
 ### Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](https://github.com/UBC-MDS/autopredictor2/blob/main/CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/UBC-MDS/autopredictor/blob/main/CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ### Attributions
 
