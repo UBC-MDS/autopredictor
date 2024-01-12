@@ -3,7 +3,7 @@
 A package that streamline the repetitive task of regression models selection and comparison in the machine learning workflow.
 
 This package includes four main functions:
-- `fit`: Fits a clean, preprocessed training data into eight different regression models. This function returns a dictionary containing four various metric scores for each model
+- `fit`: Fits a clean, preprocessed training data into eight different regression models. This function returns a dictionary containing four metric scores for each model
 - `show_all`: Generates a DataFrame presenting each scoring metric alongside the respective model, while outputting a clear overview of the results in a table format
 - `display_best_score`: Identifies the best score with respect to a specific scoring metric along with the corresponding model
 - `select_result`: Returns a summary of all the scoring metrics associated with a specific machine learning model
