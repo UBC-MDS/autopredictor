@@ -5,13 +5,13 @@ def fit(X_train,X_test,y_train,y_test):
 
     Parameters
     ----------
-    X_train: Pandas DataFrame 
+    X_train: DataFrame 
              Training data features.
-    X_test:  Pandas DataFrame 
+    X_test:  DataFrame 
              Test data features.
-    y_train: Pandas Series
+    y_train: Series
              Training data target values.
-    y_test:  Pandas Series 
+    y_test:  Series 
              Test data target values.
 
     Raises
