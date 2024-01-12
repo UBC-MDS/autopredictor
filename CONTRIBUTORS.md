@@ -1,6 +1,6 @@
 ### **Contributors:**
 
 * Anu Banga - @AnuBanga 
-* Zeily Garcia
+* Zeily Garcia - @zgarciaj 
 * Arturo Rey Haggar
 * Sharon Voon
