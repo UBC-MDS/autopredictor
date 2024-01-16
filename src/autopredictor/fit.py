@@ -3,8 +3,6 @@ from sklearn.svm import LinearSVR, SVR
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, AdaBoostRegressor
 from sklearn.metrics import mean_absolute_error, r2_score, mean_absolute_percentage_error, mean_squared_error
-from sklearn.datasets import load_diabetes
-from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
 
