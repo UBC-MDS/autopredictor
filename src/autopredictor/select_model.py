@@ -59,4 +59,4 @@ def select_model(df_output, model_name):
         return f"Model '{model_name}' not found. Here is the list of the models available: {available_models_string}."
 
 if __name__ == '__main__':
-    show_all()
+    select_model()
