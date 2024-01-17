@@ -1,3 +1,6 @@
+import pandas as pd
+from tabulate import tabulate
+
 def display_best_score(X, scoring_metric):
     """
     This function identifies the best score with respect to a specific scoring metric along with the corresponding model.
@@ -16,3 +19,13 @@ def display_best_score(X, scoring_metric):
         A DataFrame containing the best score with respect to a specific scoring metric alongside the corresponding 
         model.
     """
+    if scoring_metric not in X.columns:
+        print(f"'{scoring_metric}' not found in the DataFrame.")
+        return None
+
+    max_score = X.loc[X[scoring_metric].idxmax()]
+
+    result_table = pd.DataFrame([max_score])
+    print(tabulate(result_table, headers='keys', tablefmt='github', showindex=False))
+
+    return max_score
