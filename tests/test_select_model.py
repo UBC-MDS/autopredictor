@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 
 def test_select_existing_model():
-    """ Test that the function returns the correct DataFrame row for an existing model """
+    """Test that the function returns the correct DataFrame row for an existing model."""
     df_scores = pd.DataFrame({
         'MAE': [2.5, 3.6],
         'MSE': [10.1, 20.3]
@@ -19,7 +19,7 @@ def test_select_existing_model():
 
 
 def test_select_non_existing_model():
-    """ Test that the function returns the correct error message for a non-existing model """
+    """Test that the function returns the correct error message for a non-existing model."""
     df_scores = pd.DataFrame({
         'MAE': [2.5, 3.6],
         'MSE': [10.1, 20.3]
@@ -58,7 +58,7 @@ def test_non_string_model_name():
 
 
 def test_select_model_case_sensitivity():
-    """Test case sensitivity in model name matching."""
+    """Test that the function is case-insensitive when matching model names."""
     df_scores = pd.DataFrame({
         'MAE': [2.5],
         'MSE': [10.1]
