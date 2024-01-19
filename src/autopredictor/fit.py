@@ -13,24 +13,43 @@ def fit(X_train,X_test,y_train,y_test,return_train=False):
 
     Parameters
     ----------
-    X_train: DataFrame 
-             Training data features.
-    X_test:  DataFrame 
-             Test data features.
-    y_train: Series
-             Training data target values.
-    y_test:  Series 
-             Test data target values.
+    X_train : DataFrame
+        Training data features.
+    X_test : DataFrame
+        Test data features.
+    y_train : Series
+        Training data target values.
+    y_test : Series
+        Test data target values.
+    return_train : bool, optional, default=False
+        If True, returns scores for training data as well.
 
     Raises
     ------
-    ValueError: If any of the inputs are empty or None.
+    ValueError
+        If any of the inputs are empty or None.
 
     Returns
     -------
-    dict 
-        A dictionary containing the performance scores for each model and metric.
+    tuple of dict
+        A tuple containing dictionaries with performance scores for each model and metric.
+        The first dictionary contains scores for test data, and the second for training data.
+
+    Examples
+    --------
+    >>> X_train = pd.DataFrame({'feature1': [1, 2, 3], 'feature2': [4, 5, 6]})
+    >>> y_train = pd.Series([10, 20, 30])
+    >>> X_test = pd.DataFrame({'feature1': [7, 8, 9], 'feature2': [10, 11, 12]})
+    >>> y_test = pd.Series([40, 50, 60])
+
+    >>> scores_train, scores_test = fit(X_train, X_test, y_train, y_test, return_train=True)
+    >>> print(scores_train['Linear Regression']['Mean Absolute Error'])
+    0.0
+    >>> print(scores_test['Linear Regression']['R2 Score'])
+    -3.0
     """
+
+
     if X_train is not None and X_test is not None and y_train is not None and y_test is not None:
         scores_list_train = {}
         scores_list_test = {}
@@ -93,6 +112,6 @@ def fit(X_train,X_test,y_train,y_test,return_train=False):
         raise Exception('Please input a valid DataFrame')
 
     if return_train:
-        return (scores_list_train, scores_list_test)
+        return (scores_list_test, scores_list_train)
     else:
-        return (scores_list_test)
+        return (scores_list_test,{})
