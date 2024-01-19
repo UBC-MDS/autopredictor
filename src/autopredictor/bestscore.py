@@ -45,7 +45,7 @@ def display_best_score(X, scoring_metric):
     if scoring_metric not in X.columns:
         available_metrics = X.columns.tolist()
         available_metrics_string = ", ".join(available_metrics)
-        raise ValueError (f"Invalid Scoring metric '{scoring_metric}'.The specified metric is not in the list of available metrics. Available metrics: {available_metrics_string}.")
+        raise ValueError (f"Invalid Scoring metric '{scoring_metric}'. The specified metric is not in the list of available metrics. Available metrics: {available_metrics_string}.")
     
     if X[scoring_metric].isnull().any():
         raise ValueError(f"Invalid Scoring metric '{scoring_metric}'. The specified metric contains null values. Please handle or remove null values before using this function.")
