@@ -97,3 +97,6 @@ def test_correct_output():
     }).T
     actual = show_all(model_scores)
     pd.testing.assert_frame_equal(actual, expected), 'Show_all function is outputting incorrectly!'
+
+    if __name__ == '__main__':
+        pytest.main()
