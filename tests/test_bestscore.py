@@ -26,7 +26,7 @@ def test_invalid_scoring_metric():
 
     invalid_metric = 'R2'
     available_metrics = df.columns.tolist()
-    expected_error = f"Invalid Scoring metric '{invalid_metric}'.The specified metric is not in the list of available metrics. Available metrics: {', '.join(available_metrics)}."
+    expected_error = f"Invalid Scoring metric '{invalid_metric}'. The specified metric is not in the list of available metrics. Available metrics: {', '.join(available_metrics)}."
     
     with pytest.raises(ValueError, match=expected_error):
         display_best_score(df, 'R2')
