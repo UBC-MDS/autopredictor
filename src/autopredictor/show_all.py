@@ -75,7 +75,7 @@ def show_all(result):
 
     for model_name, model_metric in result.items():
         updated_scores = {key_mapping[key.upper()]:value for key, value in model_metric.items()}
-        X[model_name] = updated_scores
+        result[model_name] = updated_scores
     
         
     # Convert the dictionary to a DataFrame
