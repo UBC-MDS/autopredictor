@@ -20,7 +20,7 @@ Since this package is still in the developing process, it has not been published
 git clone https://github.com/UBC-MDS/autopredictor.git
 ```
 
-2. Install poetry in your base environment through this [instruction](https://python-poetry.org/docs/#installation).
+2. Install poetry in your base environment by following these [instructions](https://python-poetry.org/docs/#installation).
 
 3. Run the following commands from the root directory of this project to create a virtual environment for this package and install autopredictor through poetry:
 ```bash
