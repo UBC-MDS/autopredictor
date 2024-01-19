@@ -53,7 +53,7 @@ def display_best_score(X, scoring_metric):
     result_table = pd.DataFrame({scoring_metric: [best_score]}, index=[best_model])
     print(tabulate(result_table, headers='keys', tablefmt='github', showindex=True))
 
-    return best_score, best_model
+    return result_table
 
 if __name__ == '__main__':
     display_best_score()
