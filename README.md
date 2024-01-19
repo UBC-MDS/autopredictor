@@ -18,8 +18,70 @@ $ pip install autopredictor
 
 ## Usage
 
-- TODO
 
+To use `autopredictor`, follow these simple steps:
+
+1. Import the package:
+
+    ```python
+    import autopredictor
+    ```
+
+2. Load your preprocessed training data.
+
+
+3. Once you have your data split into training and testing, you can start by fitting the data to obtain scores for eight different regression models:
+    ```python
+    results_test, results_train = autopredictor.fit(X_train,
+                      X_test,
+                      y_train,
+                      y_test,
+                      return_train=True)
+    ```
+
+    The `fit` function returns a dictionary containing four metric scores for each model.
+
+5. Display an overview of the results in a table format:
+
+    ```python
+    scores_test = autopredictor.show_all(results_test)
+    scores_train = autopredictor.show_all(results_train)
+    ```
+
+By calling `autopredictor.show_all(results)`, the function will print a tabulated version of the resulting DataFrame for easier visualization.
+
+6. Identify the best score with respect to a specific metric:
+
+    ```python
+    autopredictor.display_best_score(metric='r2')
+    ```
+
+7. Get a summary of all scoring metrics associated with a specific model:
+
+    ```python
+    predictor.select_model(model='Linear Regression')
+    ```
+
+### Example
+
+```python
+import autopredictor
+
+# return_train will always default to False assuming the user does not want to see the train scores
+scores, _ = autopredictor.fit(X_train, 
+                           X_test, 
+                           y_train, 
+                           y_test)
+
+# Display an overview of the results
+test_df = autopredictor.show_all(scores)
+
+# Identify the best score with respect to the R-squared metric
+autopredictor.display_best_score(metric='r2')
+
+# Get a summary of scoring metrics for the Linear Regression model
+autopredictor.select_model(model='Linear Regression')
+```
 
 
 ## Contributing
