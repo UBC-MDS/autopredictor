@@ -3,16 +3,13 @@ import pandas as pd
 import pytest
 
 def test_empty_dict_input():
-    """ Test that the function return the correct statement when the input is an empty dictionary
-    
-    """
+    """ Test that the function return the correct statement when the input is an empty dictionary."""
     expected = "Input should not be an empty dictionary. No training scores are avaialble. Call fit function to test the model."
     with pytest.raises(ValueError, match=expected):
         show_all({})
 
 def test_not_dict_input():
-    """ Test that the function return the correct statement when the input is not of correct type
-    """
+    """ Test that the function return the correct statement when the input is not of correct type."""
     expected = "Input should be of dictionary type."
     with pytest.raises(TypeError, match=expected):
         show_all('This is a string')
@@ -25,7 +22,7 @@ def test_not_dict_input():
         show_all(12)
 
 def test_case_insensitivity_metric_names():
-    """ Test that the function handle case insensitive metrics name well"""
+    """ Test that the function handle case insensitive metrics name well."""
     expected = pd.DataFrame({
         'AdaBoost': {
         'MAE': 0.982,
@@ -48,7 +45,7 @@ def test_case_insensitivity_metric_names():
     assert set(actual) == set(expected)
 
 def test_incorrect_scoring_metrics():
-    """ Test that the input have the correct scoring metrics"""
+    """ Test that the input have the correct scoring metrics."""
 
     expected_incorrect = "Invalid scoring metrics for model."
     incorrect_model_scores = {
@@ -58,7 +55,7 @@ def test_incorrect_scoring_metrics():
         show_all(incorrect_model_scores)
 
 def test_incomplete_scoring_metrics():
-    """ Test that the input have the correct number scoring metrics"""
+    """ Test that the input have the correct number scoring metrics."""
 
     expected_incomplete = "Scoring metrics is incomplete."
     incomplete_model_scores = {
@@ -72,7 +69,7 @@ def test_incomplete_scoring_metrics():
         show_all(incomplete_model_scores)
 
 def test_correct_output():
-    """ Test that the function outputs correctly"""
+    """ Test that the function outputs correctly."""
     model_scores = {
         'Linear Regression': {'Mean Absolute Error': 0.453,
                             'Mean Absolute Percentage Error': 0.346,
@@ -97,6 +94,3 @@ def test_correct_output():
     }).T
     actual = show_all(model_scores)
     pd.testing.assert_frame_equal(actual, expected), 'Show_all function is outputting incorrectly!'
-
-    if __name__ == '__main__':
-        pytest.main()
