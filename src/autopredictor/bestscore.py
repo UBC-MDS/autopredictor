@@ -38,6 +38,9 @@ def display_best_score(X, scoring_metric):
     
     if X.empty:
         raise TypeError("DataFrame is empty.")
+    
+    if not isinstance(scoring_metric, str):
+        raise ValueError("scoring_metric must be a string.")
 
     if scoring_metric not in X.columns:
         available_metrics = X.columns.tolist()
