@@ -87,6 +87,3 @@ def show_all(result):
     print(result_table)
 
     return result_df
-
-if __name__ == '__main__':
-    show_all()
