@@ -12,6 +12,26 @@ This package focuses on eight widely used regressor models, providing a curated 
 
 ## Installation
 
+Since this package is still in the developing process, it has not been published on PyPI yet. Thus, In order to use this package, please run the instructions provided below.
+
+### Initialization
+1. Clone this GitHub repository using this command:
+```bash
+git clone https://github.com/UBC-MDS/autopredictor.git
+```
+
+2. Install potery in your base environment through this [instruction](https://python-poetry.org/docs/#installation).
+
+3. Run the following commands from the root directory of this project to create an virtual environment for this package and install autopredictor through poetry:
+```bash
+conda create --name autopredictor python=3.9 -y
+conda activate autopredictor
+poetry install
+```
+
+### Future update
+
+Once this package is published on PyPi, run the following command to intall autopredictor in the chosen environment:
 ```bash
 $ pip install autopredictor
 ```
