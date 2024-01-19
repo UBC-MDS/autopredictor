@@ -4,15 +4,6 @@ import sys
 import os
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split
-from unittest.mock import Mock, patch
-
-
-
-#current_dir = os.path.dirname(os.path.abspath(__file__))
-#print(current_dir)
-# Append the parent directory to sys.path
-#sys.path.append(os.path.dirname(current_dir))
-
 from autopredictor.fit import fit
 
 X, y = load_diabetes(return_X_y=True, as_frame=True)
