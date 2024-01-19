@@ -57,6 +57,3 @@ def select_model(df_output, model_name):
         available_models = df_output.index.tolist()
         available_models_string = ", ".join(available_models)
         return f"Model '{model_name}' not found. Here is the list of the models available: {available_models_string}."
-
-if __name__ == '__main__':
-    select_model()
