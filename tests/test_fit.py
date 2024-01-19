@@ -40,6 +40,4 @@ def test_fit_raises_value_error_for_missing_input():
     """Test if fit function raises a ValueError for missing input."""
     with pytest.raises(Exception):
         fit(None, None, None, None)
-
-if __name__ == '__main__':
-    pytest.main()
+        
