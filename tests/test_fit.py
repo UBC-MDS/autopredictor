@@ -13,7 +13,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y)
 def test_output_dict():
     """Test if the fit function returns a tuple."""
     result = fit(X_train, X_test, y_train, y_test)
-    assert isinstance(result, tuple)"
+    assert isinstance(result, tuple)
 
 
 def test_scores_test():
