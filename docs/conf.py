@@ -34,3 +34,14 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+
+# Static path configuration
+html_static_path = ['_static']
+
+# Logo configuration
+html_logo = 'img/logo.png'
+
+# Theme options configuration
+html_theme_options = {
+    'logo_only': True
+}
