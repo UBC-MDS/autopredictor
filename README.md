@@ -1,6 +1,18 @@
 # autopredictor
 
+<figure>
+    <img src="https://github.com/UBC-MDS/autopredictor/blob/main/docs/img/image.png?raw=true" width="150" height="150">
+</figure>
+
+![CI/CD](https://github.com/UBC-MDS/autopredictor/actions/workflows/ci-cd.yml/badge.svg) [![codecov](https://codecov.io/gh/UBC-MDS/autopredictor/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/autopredictor) [![Documentation Status](https://readthedocs.org/projects/autopredictor/badge/?version=latest)](https://autopredictor.readthedocs.io/en/latest/?badge=latest) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/) ![release](https://img.shields.io/github/release-date/UBC-MDS/autopredictor) ![version](https://img.shields.io/github/v/release/UBC-MDS/autopredictor)
+
+[Summary](#summary) | [Functions](#functions) | [Installation](#installation) | [Usage](#usage)
+
+## Summary
+
 This Autopredictor Python package streamlines the process of selecting and assessing machine learning models, presenting a simplified approach for evaluating different regression models without intricate manual setup. This tool facilitates the exploration of multiple models on a dataset, minimizing the coding required for selecting and fitting various models. Utilizing preprocessed and trained data, this package evaluates models using default settings, enabling users to swiftly comprehend model performance. By computing and showcasing diverse performance metrics for each model, it offers an efficient means to compare their effectiveness. Overall, Autopredictor provides a convenient and quick framework for initial model assessment and comparison in machine learning workflows.
+
+## Functions
 
 This package includes four main functions:
 - `fit`: Fits a clean, preprocessed training data into eight different regression models. This function returns a dictionary containing four metric scores for each model
@@ -103,6 +115,8 @@ autopredictor.display_best_score(metric='r2')
 autopredictor.select_model(model='Linear Regression')
 ```
 
+## Documentations
+Online documentation is available [here](https://autopredictor.readthedocs.io/en/latest/?badge=latest).
 
 ## Contributing
 
