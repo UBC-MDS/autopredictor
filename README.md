@@ -1,8 +1,10 @@
 # autopredictor
 
-<img src="https://github.com/UBC-MDS/autopredictor/raw/docs/img/image.png" width="100">
+<figure>
+    <img src="https://github.com/UBC-MDS/autopredictor/raw/docs/img/image.png" width="100">
+</figure>
 
-![CI/CD](https://github.com/UBC-MDS/autopredictor/actions/workflows/ci-cd.yml/badge.svg)[![codecov](https://codecov.io/gh/UBC-MDS/autopredictor/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/autopredictor)[![Documentation Status](https://readthedocs.org/projects/autopredictor/badge/?version=latest)](https://autopredictor.readthedocs.io/en/latest/?badge=latest)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/)![release](https://img.shields.io/github/release-date/UBC-MDS/autopredictor)![version](https://img.shields.io/github/v/release/UBC-MDS/autopredictor)
+![CI/CD](https://github.com/UBC-MDS/autopredictor/actions/workflows/ci-cd.yml/badge.svg) [![codecov](https://codecov.io/gh/UBC-MDS/autopredictor/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/autopredictor) [![Documentation Status](https://readthedocs.org/projects/autopredictor/badge/?version=latest)](https://autopredictor.readthedocs.io/en/latest/?badge=latest) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/)! [release](https://img.shields.io/github/release-date/UBC-MDS/autopredictor)! [version](https://img.shields.io/github/v/release/UBC-MDS/autopredictor)
 
 [Summary](#summary) | [Functions](#functions) | [Installation](#installation) | [Usage](#usage)
 
