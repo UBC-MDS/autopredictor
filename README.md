@@ -116,7 +116,7 @@ autopredictor.select_model(model='Linear Regression')
 ```
 
 ## Documentations
-Online documentation is available [here](https://readthedocs.org/projects/autopredictor/).
+Online documentation is available [here](https://autopredictor.readthedocs.io/en/latest/?badge=latest).
 
 ## Contributing
 
