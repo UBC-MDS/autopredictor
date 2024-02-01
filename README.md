@@ -36,9 +36,19 @@ This package focuses on eight widely used regressor models, providing a curated 
 
 ## Installation
 
-Since this package is still in the developing process, it has not been published on PyPI yet. Thus, In order to use this package, please run the instructions provided below.
+In order to use this package, please run the instructions provided below.
 
-### Initialization
+### For Users: Using PyPI
+
+This package is published on PyPi. Run the following command to install autopredictor in the desired environment:
+```bash
+pip install autopredictor
+```
+
+### For Developers: Using Poetry
+
+All dependencies used in this package will be handled by Poetry through the following commands:
+
 1. Clone this GitHub repository using this command:
 ```bash
 git clone https://github.com/UBC-MDS/autopredictor.git
@@ -53,15 +63,7 @@ conda activate autopredictor
 poetry install
 ```
 
-### Future update
-
-Once this package is published on PyPi, run the following command to intall autopredictor in the chosen environment:
-```bash
-$ pip install autopredictor
-```
-
 ## Usage
-
 
 To use `autopredictor`, follow these simple steps:
 
@@ -72,7 +74,6 @@ To use `autopredictor`, follow these simple steps:
     ```
 
 2. Load your preprocessed training data.
-
 
 3. Once you have your data split into training and testing, you can start by fitting the data to obtain scores for eight different regression models:
     ```python
@@ -85,25 +86,25 @@ To use `autopredictor`, follow these simple steps:
 
     The `fit` function returns a dictionary containing four metric scores for each model.
 
-5. Display an overview of the results in a table format:
+4. Display an overview of the results in a table format:
 
     ```python
     scores_test = autopredictor.show_all(results_test)
     scores_train = autopredictor.show_all(results_train)
     ```
 
-By calling `autopredictor.show_all(results)`, the function will print a tabulated version of the resulting DataFrame for easier visualization.
+    By calling `autopredictor.show_all(results)`, the function will print a tabulated version of the resulting DataFrame for easier visualization.
 
-6. Identify the best score with respect to a specific metric:
+5. Identify the best score with respect to a specific metric:
 
     ```python
     autopredictor.display_best_score(metric='r2')
     ```
 
-7. Get a summary of all scoring metrics associated with a specific model:
+6. Get a summary of all scoring metrics associated with a specific model:
 
     ```python
-    predictor.select_model(model='Linear Regression')
+    autopredictor.select_model(model='Linear Regression')
     ```
 
 ### Example
@@ -125,6 +126,20 @@ autopredictor.display_best_score(metric='r2')
 
 # Get a summary of scoring metrics for the Linear Regression model
 autopredictor.select_model(model='Linear Regression')
+```
+
+## Developer notes:
+
+### Running The Tests
+
+Run the following command in the terminal from the project's root directory to execute the tests written for each function in this package:
+```bash
+pytest tests/
+```
+
+To assess the branch coverage for this package:
+```bash
+pytest --cov=autopredictor --cov-branch
 ```
 
 ## Documentations
