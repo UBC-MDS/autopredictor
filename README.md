@@ -6,7 +6,7 @@
 
 ![CI/CD](https://github.com/UBC-MDS/autopredictor/actions/workflows/ci-cd.yml/badge.svg) [![codecov](https://codecov.io/gh/UBC-MDS/autopredictor/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/autopredictor) [![Documentation Status](https://readthedocs.org/projects/autopredictor/badge/?version=latest)](https://autopredictor.readthedocs.io/en/latest/?badge=latest) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/) ![release](https://img.shields.io/github/release-date/UBC-MDS/autopredictor) ![version](https://img.shields.io/github/v/release/UBC-MDS/autopredictor)
 
-[Summary](#summary) | [Functions](#functions) | [Installation](#installation) | [Usage](#usage)
+[Summary](#summary) | [Functions](#functions) | [Installation](#installation) | [Usage](#usage) | [Dependencies](#dependencies)
 
 ## Summary
 
@@ -47,7 +47,7 @@ pip install autopredictor
 
 ### For Developers: Using Poetry
 
-All dependencies used in this package will be handled by Poetry through the following commands:
+All [dependencies](#dependencies) installation used in this package will be handled by Poetry through the following commands:
 
 1. Clone this GitHub repository using this command:
 ```bash
@@ -142,7 +142,23 @@ To assess the branch coverage for this package:
 pytest --cov=autopredictor --cov-branch
 ```
 
+## Dependencies
+
+This package relies on the following dependencies as outlined in [pyproject.toml](https://github.com/UBC-MDS/autopredictor/blob/main/pyproject.toml):
+
+- python = "^3.9"
+- pandas = "^2.1.4"
+- tabulate = "^0.9.0"
+- scikit-learn = "^1.3.2"
+- pytest = "^7.4.4"
+- pytest-cov = "^4.1.0"
+- jupyter = "^1.0.0"
+- myst-nb = "^1.0.0"
+- sphinx-autoapi = "^3.0.0"
+- sphinx-rtd-theme = "^2.0.0"
+
 ## Documentations
+
 Online documentation is available [here](https://autopredictor.readthedocs.io/en/latest/?badge=latest).
 
 ## Contributing
