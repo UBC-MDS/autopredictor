@@ -22,7 +22,7 @@ This Autopredictor Python package streamlines the process of selecting and asses
 - Gradient Boosting
 - AdaBoost
 
- Overall, Autopredictor delivers a convenient and quick framework for preliminary model evaluation and comparison of regression models in machine learning workflows.
+ For a detailed explanation of each model, refer to the [Audopredictor Tutorial](https://autopredictor.readthedocs.io/en/latest/example.html). Overall, Autopredictor delivers a convenient and efficient framework for preliminary model evaluation and the comparison of regression models in machine learning workflows.
 
 ## Functions
 
