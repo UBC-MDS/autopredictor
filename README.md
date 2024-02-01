@@ -169,6 +169,10 @@ Interested in contributing? Check out the contributing [guidelines](https://gith
 
 `autopredictor` was created by Anu Banga, Arturo Rey, Sharon Voon, Zeily Garcia. It is licensed under the terms of the MIT license.
 
+## References
+
+Pandala, S. R. (2022). LazyPredict. Retrived from https://pypi.org/project/lazypredict/ 
+
 ## Credits
 
 `autopredictor` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
