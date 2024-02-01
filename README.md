@@ -10,12 +10,24 @@
 
 ## Summary
 
-This Autopredictor Python package streamlines the process of selecting and assessing machine learning models, presenting a simplified approach for evaluating different regression models without intricate manual setup. This tool facilitates the exploration of multiple models on a dataset, minimizing the coding required for selecting and fitting various models. Utilizing preprocessed and trained data, this package evaluates models using default settings, enabling users to swiftly comprehend model performance. By computing and showcasing diverse performance metrics for each model, it offers an efficient means to compare their effectiveness. Overall, Autopredictor provides a convenient and quick framework for initial model assessment and comparison in machine learning workflows.
+This Autopredictor Python package streamlines the process of selecting and assessing machine learning models, offering a simplified approach to assess various regression models without the need of intricate manual setup. Designed for datasets with continuous response variable, this tool expedites the exploration of multiple models, minimizing the coding effort required for model selection and fitting. Leveraging preprocessed and trained data, this package evaluates models using default settings, allowing users to swiftly comprehend model performance. By computing and showcasing diverse performance metrics for each model, it offers an efficient means to compare their effectiveness. The key metrics used for evaluating model performance include Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), R2 Square, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). The Autopredictor package encompasses eight regression models, enhancing flexibility and choices in model selection:
+
+- Linear Regression
+- Lasso Regression
+- Ridge Regression
+- Linear Support Vector Machine
+- Support Vector Machine
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- AdaBoost
+
+ Overall, Autopredictor delivers a convenient and quick framework for preliminary model evaluation and comparison of regression models in machine learning workflows.
 
 ## Functions
 
 This package includes four main functions:
-- `fit`: Fits a clean, preprocessed training data into eight different regression models. This function returns a dictionary containing four metric scores for each model
+- `fit`: Fits a clean, preprocessed training data into eight different regression models. This function returns a dictionary containing five metric scores for each model
 - `show_all`: Generates a DataFrame presenting each scoring metric alongside the respective model, while outputting a clear overview of the results in a table format
 - `display_best_score`: Identifies the best score with respect to a specific scoring metric along with the corresponding model
 - `select_model`: Returns a summary of all the scoring metrics associated with a specific machine learning model
