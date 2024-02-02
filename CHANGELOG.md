@@ -2,6 +2,15 @@
 
 
 
+## v0.1.2 (2024-02-02)
+
+### Unknown
+
+* Merge pull request #68 from UBC-MDS/refine-readme
+
+Refine readme ([`1e86f2c`](https://github.com/UBC-MDS/autopredictor/commit/1e86f2cb995e324f30259aa1e32b1f7eaa1c8ef7))
+
+
 ## v0.1.1 (2024-02-02)
 
 ### Unknown
@@ -24,7 +33,11 @@ feat: Feedback addressed by Anu for function display_best_score ([`bc41d38`](htt
 
 ### Fix
 
+* fix: Updated References ([`6db97e5`](https://github.com/UBC-MDS/autopredictor/commit/6db97e560e1bb5a26c686bae8cd6ffba7c02c6ec))
+
 * fix: Feedback addressed by Arturo for README About section ([`fbe6060`](https://github.com/UBC-MDS/autopredictor/commit/fbe60604eab70d40f81771be9d081e5343616b44))
+
+* fix: update choice of LICENSE in README ([`cc1d021`](https://github.com/UBC-MDS/autopredictor/commit/cc1d0217d13fbe50c7f01b4ba0ea7e492604f7a7))
 
 * fix: Feedback addressed by Arturo for README About section ([`501e4e7`](https://github.com/UBC-MDS/autopredictor/commit/501e4e7ac77bd4b09e47d82c588cec0829c25bfc))
 
@@ -45,6 +58,18 @@ feat: Feedback addressed by Anu for function display_best_score ([`bc41d38`](htt
 * fix: Feedback addressed by updating the description of how the Best Score function works ([`dca42f2`](https://github.com/UBC-MDS/autopredictor/commit/dca42f20fc58611e3141431e441bfb3b6b8264f6))
 
 * fix: Feedback addressed by adding the references and credits onto the Vignette ([`71a16c4`](https://github.com/UBC-MDS/autopredictor/commit/71a16c4d7cc641d371d453286aab6ace57863c51))
+
+* fix: added reference for the logistic of each functions ([`73ef1d5`](https://github.com/UBC-MDS/autopredictor/commit/73ef1d57124a3e55af3c65e4dc7d5aabc7b9087d))
+
+* fix: Added references to README ([`b07a6ce`](https://github.com/UBC-MDS/autopredictor/commit/b07a6ce4525dbbba68655dd0191cf1d0c93b26ef))
+
+* fix: Added dependencies list to README ([`220709e`](https://github.com/UBC-MDS/autopredictor/commit/220709ef9a088bb11b3fcae2bf9b413d0dffb0be))
+
+* fix: includes instruction to run unit test and updated installation instruction through PyPI ([`0f192be`](https://github.com/UBC-MDS/autopredictor/commit/0f192bec6912a8182f260926409432e90ffce3d4))
+
+* fix: includes reference to vignette for more detailed explanation for each model ([`871cf14`](https://github.com/UBC-MDS/autopredictor/commit/871cf14c550db2a30971e897518fd1f70fe68de5))
+
+* fix: included the list of regression models and scoring metrics used and specified response type in summary ([`b29e608`](https://github.com/UBC-MDS/autopredictor/commit/b29e6083e27ffab70226f15eb39acdeb01ea07e0))
 
 ### Unknown
 
