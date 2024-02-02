@@ -2,6 +2,15 @@
 
 
 
+## v0.1.0 (2024-02-02)
+
+### Feature
+
+* feat: Merge pull request #72 from UBC-MDS/feedback_points
+
+feat: Feedback addressed by Anu for function display_best_score ([`bc41d38`](https://github.com/UBC-MDS/autopredictor/commit/bc41d3809c64ce0958f3a8015bca03fe65023ddc))
+
+
 ## v0.0.1 (2024-02-02)
 
 ### Fix
@@ -10,11 +19,21 @@
 
 * fix: Feedback addressed by Arturo for README About section ([`501e4e7`](https://github.com/UBC-MDS/autopredictor/commit/501e4e7ac77bd4b09e47d82c588cec0829c25bfc))
 
+* fix: Feedback addressed by Anu. Changed test as per changes in display_best_score ([`2ab79f0`](https://github.com/UBC-MDS/autopredictor/commit/2ab79f04bf3136fe1733fcd4b842e1e95edb4524))
+
+* fix: Feedback addressed by Anu for function display_best_score ([`1a90551`](https://github.com/UBC-MDS/autopredictor/commit/1a90551429dbd600c27c374bf856fa08ed39f980))
+
 ### Unknown
 
 * Merge pull request #74 from UBC-MDS/about-readme
 
 fix: Feedback addressed by Arturo for README About section ([`26dd68c`](https://github.com/UBC-MDS/autopredictor/commit/26dd68c258f088c785af08b295eb56da950178da))
+
+* fix:Feedback addressed by Anu. Small modification in docstring ([`a474230`](https://github.com/UBC-MDS/autopredictor/commit/a4742302f7e1dd22033ecdce59a412c6bb9497ce))
+
+* fix:Feedback addressed by Anu. creatd new test for R2 scoring metric ([`086cd5b`](https://github.com/UBC-MDS/autopredictor/commit/086cd5b5d9e82bd207e4e54e98ca22ae9940cc08))
+
+* fix:Feedback addressed by Anu. Made changes as per review suggestion ([`ab4dc34`](https://github.com/UBC-MDS/autopredictor/commit/ab4dc340ed4c7ae5272bc2bdd5dd3bad68c0eda5))
 
 
 ## v0.0.0 (2024-02-01)
