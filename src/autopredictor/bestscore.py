@@ -24,14 +24,15 @@ def display_best_score(X, scoring_metric):
     >>> from autopredictor.bestscore import display_best_score
     >>> df = pd.DataFrame({'MAE': [5.6, 3.4],
                                   'MSE': [9.4, 21.4],
-                                  'MAPE': [0.34, 0.45]},
+                                  'MAPE': [0.34, 0.45],
+                                  'R2': [5.5, 3.9]},
                                  index=['Linear Regression', 'Random Forest'])
     >>> display_best_score(df, 'MAE')
                        MAE  
-    Linear Regression  5.6
+    Random Forest  3.4
     
-    >>> display_best_score(df, 'R2')
-    ValueError: Invalid Scoring metric 'R2'.The specified metric is not in the list of available metrics. Available metrics: MAE, MSE, MAPE.
+    >>> display_best_score(df, 'F1')
+    ValueError: Invalid Scoring metric 'F1'.The specified metric is not in the list of available metrics. Available metrics: MAE, MSE, MAPE, R2.
    """
     if X is None or not isinstance(X, pd.DataFrame):
         raise TypeError("Invalid DataFrame provided.")
@@ -50,8 +51,12 @@ def display_best_score(X, scoring_metric):
     if X[scoring_metric].isnull().any():
         raise ValueError(f"Invalid Scoring metric '{scoring_metric}'. The specified metric contains null values. Please handle or remove null values before using this function.")
 
-    best_model = X[scoring_metric].idxmax()
-    best_score = X.loc[best_model, scoring_metric]
+    if scoring_metric == 'R2':
+        best_model = X[scoring_metric].idxmax()
+        best_score = X.loc[best_model, scoring_metric]
+    else:
+        best_model = X[scoring_metric].idxmin()
+        best_score = X.loc[best_model, scoring_metric]
 
     result_table = pd.DataFrame({scoring_metric: [best_score]}, index=[best_model])
     print(tabulate(result_table, headers='keys', tablefmt='github', showindex=True))
