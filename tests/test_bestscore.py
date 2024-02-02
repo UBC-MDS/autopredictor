@@ -16,13 +16,23 @@ def test_existing_scoring_metric():
 
     result = display_best_score(df, 'MAE')
 
-    expected_output = pd.DataFrame({
+    pd.testing.assert_frame_equal(result, expected_output)
+
+def test_existing_scoring_metric_R2():
+    """Test that the function returns the correct DataFrame for an existing scoring metric."""
+    df = pd.DataFrame({'MAE': [5.6, 3.4],
+                           'MSE': [9.4, 21.4],
+                           'MAPE': [0.34, 0.45],
+                           'R2': [5.5, 3.9]},
+                           index=['Linear Regression', 'Random Forest'])
+    
+    expected_output_2 = pd.DataFrame({
         'R2': [5.5]
     }, index=['Linear Regression'])
 
-    result = display_best_score(df, 'R2')
+    result_2 = display_best_score(df, 'R2')
 
-    pd.testing.assert_frame_equal(result, expected_output)
+    pd.testing.assert_frame_equal(result_2, expected_output_2)
 
 def test_invalid_scoring_metric():
     """Test that the function raises the correct error message for a invalid scoring metric."""
