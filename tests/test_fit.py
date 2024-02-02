@@ -5,8 +5,6 @@ import os
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split
 from autopredictor.fit import fit
-from pandas.core.frame import DataFrame
-from pandas.core.series import Series
 
 X, y = load_diabetes(return_X_y=True, as_frame=True)
 
