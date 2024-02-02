@@ -2,6 +2,15 @@
 
 
 
+## v0.1.1 (2024-02-02)
+
+### Unknown
+
+* Merge pull request #70 from UBC-MDS/vignette_feedback
+
+Addressed Feedback: Vignette ([`779314a`](https://github.com/UBC-MDS/autopredictor/commit/779314a3c46e11944fd41e02a7854b3b90eaf0f8))
+
+
 ## v0.1.0 (2024-02-02)
 
 ### Feature
@@ -22,6 +31,20 @@ feat: Feedback addressed by Anu for function display_best_score ([`bc41d38`](htt
 * fix: Feedback addressed by Anu. Changed test as per changes in display_best_score ([`2ab79f0`](https://github.com/UBC-MDS/autopredictor/commit/2ab79f04bf3136fe1733fcd4b842e1e95edb4524))
 
 * fix: Feedback addressed by Anu for function display_best_score ([`1a90551`](https://github.com/UBC-MDS/autopredictor/commit/1a90551429dbd600c27c374bf856fa08ed39f980))
+
+* fix: Feedback addressed by making wording and format changes. ([`8323c6f`](https://github.com/UBC-MDS/autopredictor/commit/8323c6fe0c1f0f2c099dcfb9368eac51d2812332))
+
+* fix: Feedback addressed by defining scoring metrics that the package uses to help evaluate model performance ([`bc02174`](https://github.com/UBC-MDS/autopredictor/commit/bc02174ac31abe66be2054270de20e39d30f5e65))
+
+* fix: Feedback addressed by specifying and defining the models that the package works with ([`bb5bbd7`](https://github.com/UBC-MDS/autopredictor/commit/bb5bbd7f954267c9260c920fffe72026de9d8d21))
+
+* fix: Feedback addressed by specifying whether the package requires a continuous response or can handle categoricals. ([`0372c35`](https://github.com/UBC-MDS/autopredictor/commit/0372c357888cc586983f91cfe07962528cd854be))
+
+* fix: Feedback addressed by specifying criteria for input data for the fit function by defining what is meant by clean data. ([`6dbdef5`](https://github.com/UBC-MDS/autopredictor/commit/6dbdef5bb65c629a0c7aa1990e25ac068c93f3a8))
+
+* fix: Feedback addressed by updating the description of how the Best Score function works ([`dca42f2`](https://github.com/UBC-MDS/autopredictor/commit/dca42f20fc58611e3141431e441bfb3b6b8264f6))
+
+* fix: Feedback addressed by adding the references and credits onto the Vignette ([`71a16c4`](https://github.com/UBC-MDS/autopredictor/commit/71a16c4d7cc641d371d453286aab6ace57863c51))
 
 ### Unknown
 
