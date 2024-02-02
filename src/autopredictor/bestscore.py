@@ -50,8 +50,12 @@ def display_best_score(X, scoring_metric):
     if X[scoring_metric].isnull().any():
         raise ValueError(f"Invalid Scoring metric '{scoring_metric}'. The specified metric contains null values. Please handle or remove null values before using this function.")
 
-    best_model = X[scoring_metric].idxmax()
-    best_score = X.loc[best_model, scoring_metric]
+    if scoring_metric == 'R2':
+        best_model = X[scoring_metric].idxmax()
+        best_score = X.loc[best_model, scoring_metric]
+    else:
+        best_model = X[scoring_metric].idxmin()
+        best_score = X.loc[best_model, scoring_metric]
 
     result_table = pd.DataFrame({scoring_metric: [best_score]}, index=[best_model])
     print(tabulate(result_table, headers='keys', tablefmt='github', showindex=True))
