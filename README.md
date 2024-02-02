@@ -8,6 +8,11 @@
 
 [Summary](#summary) | [Functions](#functions) | [Installation](#installation) | [Usage](#usage)
 
+
+## About
+Autopredictor simplifies machine learning model selection for regression tasks. This Python package provides an intuitive approach, minimizing coding for model exploration. Assuming preprocessed data, it swiftly evaluates models with default settings, allowing quick comparison of their effectiveness.
+
+
 ## Summary
 
 This Autopredictor Python package streamlines the process of selecting and assessing machine learning models, presenting a simplified approach for evaluating different regression models without intricate manual setup. This tool facilitates the exploration of multiple models on a dataset, minimizing the coding required for selecting and fitting various models. Utilizing preprocessed and trained data, this package evaluates models using default settings, enabling users to swiftly comprehend model performance. By computing and showcasing diverse performance metrics for each model, it offers an efficient means to compare their effectiveness. Overall, Autopredictor provides a convenient and quick framework for initial model assessment and comparison in machine learning workflows.
