@@ -5,6 +5,8 @@ import os
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split
 from autopredictor.fit import fit
+from pandas.core.frame import DataFrame
+from pandas.core.series import Series
 
 X, y = load_diabetes(return_X_y=True, as_frame=True)
 
@@ -40,4 +42,10 @@ def test_fit_raises_value_error_for_missing_input():
     """Test if fit function raises a ValueError for missing input."""
     with pytest.raises(Exception):
         fit(None, None, None, None)
-        
+
+def test_input_type():
+    """Test if the input is either pandas DataFrame or pandas Series."""
+    assert isinstance(X_train, (pd.core.frame.DataFrame,pd.core.series.Series))
+    assert isinstance(X_test, (pd.core.frame.DataFrame,pd.core.series.Series))
+    assert isinstance(y_train, (pd.core.frame.DataFrame,pd.core.series.Series))
+    assert isinstance(y_test, (pd.core.frame.DataFrame,pd.core.series.Series))
