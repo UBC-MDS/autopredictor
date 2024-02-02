@@ -171,9 +171,29 @@ Interested in contributing? Check out the contributing [guidelines](https://gith
 
 `autopredictor` was created by Anu Banga, Arturo Rey, Sharon Voon, Zeily Garcia. It is licensed under the terms of the GNU GENERAL PUBLIC LICENSE.
 
+## Important Links
+
+* Official source code repo: https://github.com/UBC-MDS/autopredictor.git
+* Official read the doc: https://autopredictor.readthedocs.io/en/latest/?badge=latest
+
+
+This package uses the following models from [scikit-learn](https://scikit-learn.org/stable/):
+
+* Linear Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+* Linear Regression (L1) (Lasso): https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html
+* Linear Regression (L2) (Ridge):https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html
+* Support Vector Machine: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
+* Decision Tree: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
+* Random Forest: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+* Gradient Boosting: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
+* AdaBoost: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html
+
+
 ## References
 
 Pandala, S. R. (2022). LazyPredict. Retrived from https://pypi.org/project/lazypredict/ 
+
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., … Duchesnay, É. (1970). Scikit-Learn: Machine learning in Python. Retrieved from https://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html 
 
 ## Credits
 
