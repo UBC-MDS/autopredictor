@@ -19,7 +19,7 @@ def test_existing_scoring_metric():
     pd.testing.assert_frame_equal(result, expected_output)
 
 def test_existing_scoring_metric_R2():
-    """Test that the function returns the correct DataFrame for an existing scoring metric."""
+    """Test that the function returns the correct DataFrame for R2 scoring metric."""
     df = pd.DataFrame({'MAE': [5.6, 3.4],
                            'MSE': [9.4, 21.4],
                            'MAPE': [0.34, 0.45],
