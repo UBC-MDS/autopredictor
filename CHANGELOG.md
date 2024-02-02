@@ -2,6 +2,21 @@
 
 
 
+## v0.0.1 (2024-02-02)
+
+### Fix
+
+* fix: Feedback addressed by Arturo for README About section ([`fbe6060`](https://github.com/UBC-MDS/autopredictor/commit/fbe60604eab70d40f81771be9d081e5343616b44))
+
+* fix: Feedback addressed by Arturo for README About section ([`501e4e7`](https://github.com/UBC-MDS/autopredictor/commit/501e4e7ac77bd4b09e47d82c588cec0829c25bfc))
+
+### Unknown
+
+* Merge pull request #74 from UBC-MDS/about-readme
+
+fix: Feedback addressed by Arturo for README About section ([`26dd68c`](https://github.com/UBC-MDS/autopredictor/commit/26dd68c258f088c785af08b295eb56da950178da))
+
+
 ## v0.0.0 (2024-02-01)
 
 ### Build
