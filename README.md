@@ -10,18 +10,8 @@
 
 
 ## About
-Autopredictor simplifies machine learning model selection for regression tasks. This Python package provides an intuitive approavh, minimizing coding for model exploration. Assuming preprocessed data, it swiftly evaluates models with default settings, allowing quick comparison of their effectiveness.
+Autopredictor simplifies machine learning model selection for regression tasks. This Python package provides an intuitive approach, minimizing coding for model exploration. Assuming preprocessed data, it swiftly evaluates models with default settings, allowing quick comparison of their effectiveness.
 
-The package uses the following models from [scikit-learn](https://scikit-learn.org/stable/):
-
-* [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
-* [Linear Regression (L1) (Lasso)](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html)
-* [Linear Regression (L2) (Ridge)](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
-* [Support Vector Machine](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)
-* [Decision Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
-* [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-* [Gradient Boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html)
-* [AdaBoost](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html)
 
 ## Summary
 
