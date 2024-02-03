@@ -2,6 +2,19 @@
 
 
 
+## v0.2.3 (2024-02-03)
+
+### Fix
+
+* fix: Update License in pyproject.toml BREAKING CHANGE: License changed from MIT to GNU GPL3. ([`4936671`](https://github.com/UBC-MDS/autopredictor/commit/4936671fe9d06c891153f08ab80481750cb385c0))
+
+### Unknown
+
+* Merge pull request #83 from UBC-MDS/pyproject-meta-config
+
+ Update License in pyproject.toml ([`3841ce0`](https://github.com/UBC-MDS/autopredictor/commit/3841ce0a4066a79bc5581cce98c33a2685a08269))
+
+
 ## v0.2.2 (2024-02-03)
 
 ### Unknown
