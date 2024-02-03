@@ -73,6 +73,12 @@ Feedback addressed: function display_best_score ([`bc41d38`](https://github.com/
 
 ### Fix
 
+* fix: Feedback addressed by Anu. Small modification in docstring ([`a474230`](https://github.com/UBC-MDS/autopredictor/commit/a4742302f7e1dd22033ecdce59a412c6bb9497ce))
+
+* fix: Feedback addressed by Anu. creatd new test for R2 scoring metric ([`086cd5b`](https://github.com/UBC-MDS/autopredictor/commit/086cd5b5d9e82bd207e4e54e98ca22ae9940cc08))
+
+* fix: Feedback addressed by Anu. Made changes as per review suggestion ([`ab4dc34`](https://github.com/UBC-MDS/autopredictor/commit/ab4dc340ed4c7ae5272bc2bdd5dd3bad68c0eda5))
+
 * fix: Feedback addressed by Sharon for README References ([`6db97e5`](https://github.com/UBC-MDS/autopredictor/commit/6db97e560e1bb5a26c686bae8cd6ffba7c02c6ec))
 
 * fix: Feedback addressed by Arturo for README About section ([`fbe6060`](https://github.com/UBC-MDS/autopredictor/commit/fbe60604eab70d40f81771be9d081e5343616b44))
@@ -111,13 +117,7 @@ Feedback addressed: function display_best_score ([`bc41d38`](https://github.com/
 
 * Merge pull request #74 from UBC-MDS/about-readme
 
-fix: Feedback addressed by Arturo for README About section ([`26dd68c`](https://github.com/UBC-MDS/autopredictor/commit/26dd68c258f088c785af08b295eb56da950178da))
-
-* fix:Feedback addressed by Anu. Small modification in docstring ([`a474230`](https://github.com/UBC-MDS/autopredictor/commit/a4742302f7e1dd22033ecdce59a412c6bb9497ce))
-
-* fix:Feedback addressed by Anu. creatd new test for R2 scoring metric ([`086cd5b`](https://github.com/UBC-MDS/autopredictor/commit/086cd5b5d9e82bd207e4e54e98ca22ae9940cc08))
-
-* fix:Feedback addressed by Anu. Made changes as per review suggestion ([`ab4dc34`](https://github.com/UBC-MDS/autopredictor/commit/ab4dc340ed4c7ae5272bc2bdd5dd3bad68c0eda5))
+Feedback addressed by Arturo for README About section ([`26dd68c`](https://github.com/UBC-MDS/autopredictor/commit/26dd68c258f088c785af08b295eb56da950178da))
 
 
 ## v0.0.0 (2024-02-01)
