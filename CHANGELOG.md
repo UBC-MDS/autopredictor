@@ -2,7 +2,26 @@
 
 
 
+## v0.1.3 (2024-02-03)
+
+### Fix
+
+* fix: Feedback addressed by Arturo fixed poetry.lock file ([`7a6526c`](https://github.com/UBC-MDS/autopredictor/commit/7a6526cf269c131bdda45fc248e373b2d8b9edee))
+
+### Unknown
+
+* Merge pull request #75 from UBC-MDS/add-tests-fit
+
+fix: Feedback addressed by Arturo for input types ([`536d796`](https://github.com/UBC-MDS/autopredictor/commit/536d796c433a0594c317fd04d9bdcb4912694a8b))
+
+
 ## v0.1.2 (2024-02-02)
+
+### Fix
+
+* fix: Feedback addressed by Arturo for input types ([`f45de1a`](https://github.com/UBC-MDS/autopredictor/commit/f45de1a70f0a1d2ee9f951fa6f68919d876666b6))
+
+* fix: Feedback addressed by Arturo for input types ([`4a1abdb`](https://github.com/UBC-MDS/autopredictor/commit/4a1abdb8437428e3653c872db2d0c19811ca7145))
 
 ### Unknown
 
