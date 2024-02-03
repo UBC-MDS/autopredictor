@@ -3,7 +3,7 @@ name = "autopredictor"
 version = "0.2.2"
 description = "A package that streamline the repetitive task of regression models selection and comparison in the machine learning workflow."
 authors = ["Anu Banga, Arturo Rey, Sharon Voon, Zeily Garcia"]
-license = "MIT"
+license = "GNU GPL 3"
 readme = "README.md"
 
 [tool.poetry.dependencies]
