@@ -2,6 +2,19 @@
 
 
 
+## v0.2.0 (2024-02-03)
+
+### Feature
+
+* feat: Feedback addressed by Anu. Change R2 values in examples ([`8d07f14`](https://github.com/UBC-MDS/autopredictor/commit/8d07f14e41a81404a078b8f2cf0f411e3ffd19b2))
+
+### Unknown
+
+* Merge pull request #78 from UBC-MDS/feedback_points
+
+feat: Feedback addressed by Anu. Change R2 values in examples ([`a8e4511`](https://github.com/UBC-MDS/autopredictor/commit/a8e451159a93a5e22c47eade329ceffd9f82c106))
+
+
 ## v0.1.3 (2024-02-03)
 
 ### Fix
