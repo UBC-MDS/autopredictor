@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "autopredictor"
-version = "0.2.0"
+version = "0.2.1"
 description = "A package that streamline the repetitive task of regression models selection and comparison in the machine learning workflow."
 authors = ["Anu Banga, Arturo Rey, Sharon Voon, Zeily Garcia"]
 license = "MIT"

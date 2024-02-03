@@ -2,6 +2,23 @@
 
 
 
+## v0.2.1 (2024-02-03)
+
+### Fix
+
+* fix: Update ci-cd.yml ([`6bb524f`](https://github.com/UBC-MDS/autopredictor/commit/6bb524feb779f190caaeda2510098c3917340413))
+
+### Unknown
+
+* Merge pull request #81 from UBC-MDS/Update-on-ci-cd-yml-file
+
+Update ci-cd.yml ([`3529088`](https://github.com/UBC-MDS/autopredictor/commit/35290888410317b52f81df373582869a97b7c4d0))
+
+* Merge pull request #73 from UBC-MDS/license_change_GNU
+
+Update License to GNU ([`8a59b0c`](https://github.com/UBC-MDS/autopredictor/commit/8a59b0c96e7b156348b1d5a1974e361c5c4812b9))
+
+
 ## v0.2.0 (2024-02-03)
 
 ### Feature
@@ -114,6 +131,8 @@ fix: Feedback addressed by Arturo for README About section ([`26dd68c`](https://
 * fix:Feedback addressed by Anu. creatd new test for R2 scoring metric ([`086cd5b`](https://github.com/UBC-MDS/autopredictor/commit/086cd5b5d9e82bd207e4e54e98ca22ae9940cc08))
 
 * fix:Feedback addressed by Anu. Made changes as per review suggestion ([`ab4dc34`](https://github.com/UBC-MDS/autopredictor/commit/ab4dc340ed4c7ae5272bc2bdd5dd3bad68c0eda5))
+
+* BREAKING CHANGE: Update License to GNU ([`0ea9088`](https://github.com/UBC-MDS/autopredictor/commit/0ea9088017dc57889818a6d7b9f28726cc60bdfc))
 
 
 ## v0.0.0 (2024-02-01)
