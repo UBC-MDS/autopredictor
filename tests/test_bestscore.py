@@ -7,7 +7,7 @@ def test_existing_scoring_metric():
     df = pd.DataFrame({'MAE': [5.6, 3.4],
                            'MSE': [9.4, 21.4],
                            'MAPE': [0.34, 0.45],
-                           'R2': [5.5, 3.9]},
+                           'R2': [0.239, 0.712]},
                            index=['Linear Regression', 'Random Forest'])
     
     expected_output = pd.DataFrame({
@@ -23,12 +23,12 @@ def test_existing_scoring_metric_R2():
     df = pd.DataFrame({'MAE': [5.6, 3.4],
                            'MSE': [9.4, 21.4],
                            'MAPE': [0.34, 0.45],
-                           'R2': [5.5, 3.9]},
+                           'R2': [0.239, 0.712]},
                            index=['Linear Regression', 'Random Forest'])
     
     expected_output_2 = pd.DataFrame({
-        'R2': [5.5]
-    }, index=['Linear Regression'])
+        'R2': [0.712]
+    }, index=['Random Forest'])
 
     result_2 = display_best_score(df, 'R2')
 

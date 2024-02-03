@@ -25,7 +25,7 @@ def display_best_score(X, scoring_metric):
     >>> df = pd.DataFrame({'MAE': [5.6, 3.4],
                                   'MSE': [9.4, 21.4],
                                   'MAPE': [0.34, 0.45],
-                                  'R2': [5.5, 3.9]},
+                                  'R2': [0.239, 0.712]},
                                  index=['Linear Regression', 'Random Forest'])
     >>> display_best_score(df, 'MAE')
                        MAE  
